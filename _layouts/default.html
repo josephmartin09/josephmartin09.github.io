@@ -2,19 +2,20 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
+        <!-- Include everything as partials -->
+        {% include nav.html %}
+        {% include header.html %}
+        {% include portfolio_grid.html %}
+        {% include about.html %}
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
+        {% if site.contact == "static" %}
+        {% include contact_static.html %}
+        {% else %}
+        {% include contact.html %}
+        {% endif %}
 
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+        {% include footer.html %}
+        {% include modals.html %}
+        {% include js.html %}
     </body>
 </html>
