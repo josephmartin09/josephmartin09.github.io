@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    color: #{{site.color.secondary}};
 }
 
 p {
@@ -432,7 +431,7 @@ footer .footer-below {
     border-color: #{{ site.color.primary-dark }};
     background-color: #{{ site.color.primary-dark }}; 
     color: #{{ site.color.background }}
-};
+}
 
 .scroll-top {
     z-index: 1049;

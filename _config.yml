@@ -31,7 +31,11 @@ footer:
   copyright: Joseph Martin
   location: Located in the Washington DC Area
   social: Find me on the Web
-#  credits: Credits
+  credits: Credits
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -50,9 +54,6 @@ social:
 address:
 #   - line: 3481 Melrose Place
   - line: Silver Spring, MD 20901
-
-# Credits content
-# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 # markdown: kramdown

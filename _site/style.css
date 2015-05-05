@@ -13,7 +13,6 @@
 
 body {
     overflow-x: hidden;
-    color: #2c3e50;
 }
 
 p {
@@ -439,7 +438,7 @@ footer .footer-below {
     border-color: #18bc9c;
     background-color: #18bc9c; 
     color: #f5f3e9
-};
+}
 
 .scroll-top {
     z-index: 1049;
