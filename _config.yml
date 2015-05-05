@@ -17,8 +17,10 @@ color:
 
   # Second Try
   primary: a0d6b4
+  primary-dark: 18bc9c  # Nothing yet
   secondary: 2c3e50
   secondary-dark: 233140
+  background: f5f3e9   #f5f3e9  #f0eee1  #abcdef
 
 # About settings
 about:
