@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    color: #{{site.color.secondary}};
 }
 
 p {
@@ -169,6 +170,32 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+
+.navbar-default {
+    background-color: #{{ site.color.secondary }};
+    border-color: transparent
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #{{ site.color.primary }};
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active
+{
+    color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #{{ site.color.primary }};
+    background-color: #{{ site.color.secondary-dark }};
+}
+
 
 section {
     padding: 100px 0;
@@ -365,6 +392,16 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+}
+
+.btn-success {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+}
+
+.btn-success:hover {
+    // border-color: #{{ site.color.primary }};
+    // background-color: #{{ site.color.primary }};   
 }
 
 .btn:focus,
