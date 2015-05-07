@@ -24,8 +24,8 @@ color:
 
 # About settings
 about:
-  left: "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-  right: "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+  left: "Hi, my name is Joseph Martin. I am a graduate of the University of Maryland with degrees in Mechanical Engineering and Computer Science. In the past, I worked as an Engineering Intern at Silver Palm LLC, developing communications code for micro-controllers in a variety of signal intelligence applications."
+  right: "I now work as an independent software contractor and have experience with web and mobile apps, embedded systems programming, network programming, and algorithm development. I consider myself a student of life, and am always looking for a challenge and a new way to learn."
 # Footer settings
 footer:
   copyright: Joseph Martin
@@ -47,6 +47,8 @@ social:
   #   url: http://stackoverflow.com/questions/tagged/jekyll
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/pub/joseph-martin/b2/861/265
   - title: github
     url: http://github.com/josephmartin09
 

@@ -1,8 +1,11 @@
 ---
 layout: default
+visible: true
 modal-id: 3
 date: 2014-07-15
-img: circus.png
+img0: CollegeScooter3.png
+img1: CollegeScooter1.png
+img2: CollegeScooter2.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

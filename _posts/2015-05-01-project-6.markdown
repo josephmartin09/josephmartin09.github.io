@@ -1,8 +1,9 @@
 ---
 layout: default
+visible: true
 modal-id: 6
-date: 2014-07-15
-img: safe.png
+img0: Perfetti1.png
+img1: Perfetti2.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
