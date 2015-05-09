@@ -3,13 +3,14 @@ layout: default
 visible: true
 modal-id: 3
 date: 2014-07-15
-img0: CollegeScooter3.png
-img1: CollegeScooter1.png
-img2: CollegeScooter2.png
+title: College Scooters Service Tracker
+img0: CollegeScooter1.png
+img1: CollegeScooter2.png
+img2: CollegeScooter3.png
 alt: image-alt
-project-date: April 2014
+project-date: Summer 2013
 client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+category: Web Application Development
+description: College Scooters Inc. now serves both The University of Maryland and Salisbury College with tons of motorized scooters and accessories.  Because the best scooters need the best service, they needed an inventory and maintence alert system for their customers.  The system that I built allows the maintence team to track repairs, notify the customer what parts their scooter needs, repair diagnosis, and estimated pickup time via email.
 
 ---

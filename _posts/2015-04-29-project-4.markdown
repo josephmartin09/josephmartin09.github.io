@@ -3,11 +3,12 @@ layout: default
 visible: true
 modal-id: 4
 date: 2014-07-15
+title: Delivery Routing Service
 img0: SiceMeRoutes.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+project-date: March 2015
+client: SiceMe
+category: Algorithm Development
+description: SiceMe is a Collge Park based food delivery service that seeks to bring traditionally pick-up or dine-in only foods to the delivery scene.  They have grown to the point where they need to develop an efficient routing system for their delivery drivers.  The above is a demo of a delivery algorithm I developed that finds the most efficient set of routes if three drivers (shown in blue, green and red) have to deliver Chipotle to all the points shown on the map.  This service is currently being developed into a full-service api that will be used in the upcoming SiceMe mobile app!
 
 ---

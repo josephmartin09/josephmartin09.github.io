@@ -1,6 +1,6 @@
 ---
 layout: default
-visible: true
+visible: false
 modal-id: 1
 date: 2014-07-15
 img0: cabin.png

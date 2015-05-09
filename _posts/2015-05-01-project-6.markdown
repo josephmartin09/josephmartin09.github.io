@@ -2,12 +2,12 @@
 layout: default
 visible: true
 modal-id: 6
+title: Financial Benchmarking Application
 img0: Perfetti1.png
 img1: Perfetti2.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+project-date: Feb-April 2015
+client: Joseph Perfetti
+category: Web App Development
+description: Mr. Perfetti is a subject matter expert in finance, business acumen, valuation and strategic planning. In addition to teaching in academic programs at Wharton, Maryland, Georgetown, and Emory, Mr. Perfetti has delivered over 1400 days of executive education over the past 25 years.  I developed a Ruby on Rails web app that allows Mr. Perfetti to present excel sheets containing Bloomberg financial data in a web-application that allows users to query the information in any manner that they choose. The application features a custom line+bar graph writen in D3.js, as well as an excel spreadsheet import system that seamlessly imports the raw financial data from an excel file, and adds it to a persistent data base.  This system is used by many of Perfetti's clients including Google, Raytheon, Santander, and Rio Tinto. 
 ---
