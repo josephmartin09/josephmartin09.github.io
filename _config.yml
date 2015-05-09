@@ -7,7 +7,7 @@ description: "Write an awesome description for your new site here. You can edit 
 skills: Web and Mobile Developer - Systems Programmer - Software Engineer
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
- contact: static
+contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
