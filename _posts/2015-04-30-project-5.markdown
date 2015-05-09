@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Silver Palm LLC
 category: Embedded Systems
-description: Silver Palm LLC is a highly experienced singals intelligence and radio frequency company offering quality solutions to problems in the intelligence community.  Many of their modules involved the use of GNU-Radio, an open-source software defined radio system.  I helped port their C++ GNU-Radio modules to run the newly updated GNU-Radio 3.7 environment on Ubuntu 14. This code port saved them many man-hours that would have otherwise been required to re-develop the code from scratch.
+description: Silver Palm LLC is a highly experienced signals intelligence and radio frequency company offering quality solutions to problems in the intelligence community.  Many of their modules involved the use of GNU-Radio, an open-source software defined radio system.  I helped port their C++ GNU-Radio modules to run the newly updated GNU-Radio 3.7 environment on Ubuntu 14. This code port saved them many man-hours that would have otherwise been required to re-develop the code from scratch.
 
 ---

@@ -11,6 +11,6 @@ alt: image-alt
 project-date: Summer 2013
 client: Start Bootstrap
 category: Web Application Development
-description: College Scooters Inc. now serves both The University of Maryland and Salisbury College with tons of motorized scooters and accessories.  Because the best scooters need the best service, they needed an inventory and maintence alert system for their customers.  The system that I built allows the maintence team to track repairs, notify the customer what parts their scooter needs, repair diagnosis, and estimated pickup time via email.
+description: College Scooters Inc. now serves both The University of Maryland and Salisbury College with tons of motorized scooters and accessories.  Because the best scooters need the best service, they needed an inventory and maintenence alert system for their customers.  The system that I built allows the maintence team to track repairs, notify the customer what parts their scooter needs, repair diagnosis, and estimated pickup time via email.
 
 ---
