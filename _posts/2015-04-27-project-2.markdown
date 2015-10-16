@@ -1,7 +1,7 @@
 ---
 layout: default
 visible: false
-modal-id: 2
+modal-id: 1
 date: 2014-07-15
 img0: cake.png
 alt: image-alt
