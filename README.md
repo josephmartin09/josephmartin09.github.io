@@ -1,1 +1,0 @@
-# Joe Martin Design Personal Website.  Created with the Freelance StartBootstrap template.
