@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 // Custom Components
 import ImageCarousel from './ImageCarousel';

@@ -13,7 +13,7 @@ const titleStyle = {
 	color: '#e4e4e4',
 	height: '100%',
 	fontSize: '30px',
-	marginLeft: '12px',
+	marginLeft: '18px',
 	marginTop: '18px'
 }
 

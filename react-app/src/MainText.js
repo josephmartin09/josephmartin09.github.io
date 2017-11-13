@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router';
+
 import Paper from 'material-ui/Paper';
-import IconButton from 'material-ui/IconButton';
 // SVG Icons
 import People from 'material-ui/svg-icons/social/people';
 import Work from 'material-ui/svg-icons/action/work';
 import ContactPhone from 'material-ui/svg-icons/communication/contact-phone';
 import Description from 'material-ui/svg-icons/action/description';
-
-const mainCompStyle = {
-	display: 'inline-block',
-	width: '100%',
-	textAlign: 'center',
-	paddingTop: 24
-}
+// Buttons
+import FlatButton from 'material-ui/FlatButton';
+import IconButton from 'material-ui/IconButton';
 
 const paperStyle = {
   height: 300,
@@ -23,12 +20,17 @@ const paperStyle = {
   display: 'inline-block'
 }
 
+const mainStyle = {
+	backgroundColor: 'green'
+}
+
 const cardTitleStyle = {
 	fontSize: 20
 }
 
 const headerMainStyle = {
-	fontSize: 30
+	fontSize: 30,
+	paddingTop: 24 // Just to give separation from the image carousel
 } 
 
 const headerSubStyle = {
@@ -37,10 +39,26 @@ const headerSubStyle = {
 
 class MainText extends Component {
 
+	constructor(props) {
+		super(props);
+		this.state = {
+			redirectTo: null
+		}
+	}
+
+	routeTo = (route) => {
+		this.setState({redirectTo: route})
+	}
+
   render() {
 
+  	// Ew
+  	if (this.state.redirectTo != null) {
+  		return (<Redirect push to={this.state.redirectTo} />)
+  	}
+
     return (
-      <div style={mainCompStyle} >
+      <div>
 
 	    	{/* Banner Title */}
 	    	<div style={headerMainStyle}>
@@ -51,26 +69,32 @@ class MainText extends Component {
 	    	</div>
 
 	    	{/* Links to stuff */}
-	    	<div style={mainCompStyle}>
+	    	<div>
 		    	<Paper style={paperStyle} zDepth={1} >
 		    		<div style={cardTitleStyle} > About </div>
-		    		<IconButton>
+		    		<IconButton onClick={this.routeTo.bind(this, "/about")} >
 		    			<People />
 		    		</IconButton>
+		    		<div />
+		    		<FlatButton label="More" onClick={this.routeTo.bind(this, "/about")} />
 		    	</Paper>
 
 		    	<Paper style={paperStyle} zDepth={1} >
 			    	<div style={cardTitleStyle}> Services </div>
-		    		<IconButton>
+		    		<IconButton onClick={this.routeTo.bind(this, "/services")}>
 		    			<Work />
 		    		</IconButton>
+		    		<div />
+						<FlatButton label="More" onClick={this.routeTo.bind(this, "/services")} />
 		    	</Paper>
 
 		    	<Paper style={paperStyle} zDepth={1} >
 		    		<div style={cardTitleStyle}>Contact</div>
-		    		<IconButton>
+		    		<IconButton onClick={this.routeTo.bind(this, "/contact")}>
 			    		<ContactPhone />
 			    	</IconButton>
+			    	<div />
+			    	<FlatButton label="More" onClick={this.routeTo.bind(this, "/contact")} />
 		    	</Paper>
 
 		    	<Paper style={paperStyle} zDepth={1} >
@@ -78,10 +102,10 @@ class MainText extends Component {
 		    		<IconButton>
 			    		<Description />
 			    	</IconButton>
+			    	<div />
+			    	<FlatButton label="More" />
 		    	</Paper>
-
 		    </div>
-
       </div>
     );
   }
